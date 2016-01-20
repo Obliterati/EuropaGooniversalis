@@ -39,7 +39,7 @@ NDiplomacy = {
 	PEACE_IMPACT_DIP_SCORE = 0.25,
 	PEACE_IMPACT_MIL_SCORE = 0.25,
 		
-	AUTONOMY_WARSCORE_COST_MODIFIER = 0.33,			-- How much autonomy reduces score by (at 1, 50% autonomy = 50% reduction)	
+	AUTONOMY_WARSCORE_COST_MODIFIER = 0,			-- How much autonomy reduces score by (at 1, 50% autonomy = 50% reduction)	
 	RIVAL_PRESTIGE_BONUS = 0.25,
 	RIVAL_SPY_OFFENCE = 0.20,
 	OVEREXTENSION_THRESHOLD = 1.0,				-- at which threshold you can get events
@@ -64,7 +64,7 @@ NDiplomacy = {
 	CRUSADE_TIMEOUT_YEARS = 30, 					-- Crusade timeout (years)
 	END_OF_CRUSADES = 1750, 						-- End of Crusade/Excommunicate actions. AI might also befriend old religious enemies.
 	WE_IMPACT_ON_ANNEX_INTEGRATE = -0.05,			-- multiplied with current WE
-	EMPEROR_VOTE_DAYS = 60,	 						-- _DDEF_EMPEROR_VOTE_DAYS_; "Cooldown" until Electors can change their vote again.
+	EMPEROR_VOTE_DAYS = 30,	 						-- _DDEF_EMPEROR_VOTE_DAYS_; "Cooldown" until Electors can change their vote again.
 	TRUCE_YEARS = 5, 								-- _DDEF_TRUCE_YEARS_; Years of Truce
 	SCALED_TRUCE_YEARS = 10,						-- Additional years of truce based on % of warscore taken in war (100% warscore = full scaled truce years)
 	WARNING_YEARS = 20,								-- Years before warning expire
@@ -86,7 +86,7 @@ NDiplomacy = {
 	AE_SAME_RELIGION = 0.5,
 	AE_SAME_RELIGION_GROUP = 0.0,
 	AE_DIFFERENT_RELIGION = -0.5,
-	AE_HRE_INTERNAL = 0.4,
+	AE_HRE_INTERNAL = 0.2,
 	AE_ATTACKER_DEVELOPMENT = 0.01,	-- +50% cap (at 1000 development)
 	AE_DEFENDER_DEVELOPMENT = 0.01,	-- -50% cap (at 1000 development)
 	AE_DISTANCE_BASE = 0.75,
@@ -193,7 +193,7 @@ NDiplomacy = {
 	
 	DIPLOMAT_SPEED = 20.0,							-- DIPLOMAT_SPEED
 	DIPLOMAT_COOLDOWN_TIME = 1,						-- DIPLOMATIC ACTION COOLDOWN IN MONTHS
-	MIN_RELATIONS_TO_ALLY = -50,						-- Alliances not possible if either country has an opinion of the other lower than this
+	MIN_RELATIONS_TO_ALLY = -200,						-- Alliances not possible if either country has an opinion of the other lower than this
 	MIN_RELATIONS_TO_SUPPORT_INDEPENDENCE = -50,	-- Support Independence not possible if either country has an opinion of the other lower than this
 	LACK_OF_RIVAL_SCORE_PENALTY = 0.5,			-- Monthly score is changed by this for each rival short of expected amount
 	
@@ -376,7 +376,7 @@ NCountry = {
 	PS_MOVE_CAPITAL = 100,
 	PS_MOVE_CAPITAL_EXTRA = 50,						-- Per 100 country development.
 	PS_MOVE_TRADE_PORT = 100,
-	PS_REPLACE_RIVAL = 100,
+	PS_REPLACE_RIVAL = 0,
 	PS_SEIZE_COLONY = 25,
 	PS_BURN_COLONY = 5,
 	PS_ATTACK_NATIVES = 5,
