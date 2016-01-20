@@ -1,0 +1,6 @@
+government = iqta
+government_rank = 2
+technology_group = muslim
+religion = tengri_pagan_reformed
+primary_culture = crimean
+capital = 303	# Saratov

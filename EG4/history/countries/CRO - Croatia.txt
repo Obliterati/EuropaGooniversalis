@@ -1,0 +1,30 @@
+government = feudal_monarchy
+primary_culture = croatian
+religion = catholic
+technology_group = eastern
+capital = 131	# Zagreb
+
+1434.11.11 = {
+	monarch = {
+		name = "Goislav"
+		dynasty = "Svacic"
+		birth_date = 1414.11.11
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1435.11.11 = {
+	heir = {
+		name = "Stjepan"
+		monarch_name = "Stjepan"
+		dynasty = "Svacic"
+		birth_date = 1424.11.11
+		death_date = 2015.7.21
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

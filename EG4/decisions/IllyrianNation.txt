@@ -1,0 +1,53 @@
+country_decisions = {
+
+	illyrian_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			culture_group = south_slavic
+			NOT = { primary_culture = greek }
+			NOT = { primary_culture = pontic_greek }
+			NOT = { primary_culture = goths }
+		}
+		allow = {
+			is_at_war = no
+			is_subject = no
+			is_nomad = no			
+			NOT = { exists = ILY }
+			owns_core_province = 131	# Zagreb
+			owns_core_province = 140	# Bosnia
+			owns_core_province = 141    # Serbia
+			owns_core_province = 137    # Ragusa
+			owns_core_province = 143    # Albania
+		}
+		effect = {
+			change_tag = ILY
+			if = {
+				limit = {
+					is_part_of_hre = yes
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

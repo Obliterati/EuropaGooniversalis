@@ -1,0 +1,31 @@
+government = english_monarchy
+mercantilism = 0.25
+technology_group = western
+primary_culture = english
+religion = catholic
+capital = 236 # London
+
+1434.11.11 = {
+	monarch = {
+		name = "Henry VI"
+		dynasty = "Lancaster"
+		birth_date = 1414.11.11
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1435.11.11 = {
+	heir = {
+		name = "Edward IV"
+		monarch_name = "Edward IV"
+		dynasty = "Lancaster"
+		birth_date = 1424.11.11
+		death_date = 2015.7.21
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

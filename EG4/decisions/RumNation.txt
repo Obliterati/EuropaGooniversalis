@@ -1,0 +1,85 @@
+country_decisions = {
+
+	rum_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			religion_group = muslim
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				tag = TUR
+				tag = ERE
+			}
+			NOT = { exists = RUM }
+			NOT = { exists = OMG }
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_subject = no
+			is_nomad = no			
+			NOT = { exists = RUM }
+			NOT = { exists = OMG }
+			OR = {
+				AND = {
+					tag = TUR
+					NOT = { exists = ERE }
+				}
+				AND = {
+					tag = ERE
+					NOT = { exists = TUR }
+				}
+			}
+			owns_core_province = 118	# Rome
+			owns_core_province = 151	# Constantinople
+			owns_core_province = 2313   # Antioch
+		}
+		effect = {
+			change_tag = RUM
+			if = {
+				limit = {
+					is_part_of_hre = yes
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 200
+			151 = {
+				change_culture = turkish 
+				change_religion = sunni
+				rename_capital = Rum
+			}
+			RUM = {
+				set_capital = 118
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

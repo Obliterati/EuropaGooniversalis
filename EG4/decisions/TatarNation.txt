@@ -1,0 +1,60 @@
+country_decisions = {
+
+	tatar_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			culture_group = tartar
+		}
+		allow = {
+			is_at_war = no
+			is_subject = no			
+			NOT = { exists = TTR }
+			owns_core_province = 284
+			owns_core_province = 303
+			owns_core_province = 464
+			owns_core_province = 1082
+			owns_core_province = 465
+			owns_core_province = 475
+			owns_core_province = 1075
+			owns_core_province = 1778
+		}
+		effect = {
+			change_tag = TTR
+			if = {
+				limit = {
+					is_part_of_hre = yes
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+		if = {
+				limit = {
+					technology_group = nomad_group
+				}
+				change_technology_group = muslim
+			}
+			change_government = iqta
+			change_unit_type = muslim
+		}
+			ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

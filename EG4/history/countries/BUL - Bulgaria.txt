@@ -1,0 +1,30 @@
+government = feudal_monarchy
+technology_group = eastern
+primary_culture = bulgarian
+religion = orthodox
+capital = 150	# Sofia
+
+1434.11.11 = {
+	monarch = {
+		name = "Koloman III"
+		dynasty = "Kotromanic"
+		birth_date = 1414.11.11
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1435.11.11 = {
+	heir = {
+		name = "Koloman IV"
+		monarch_name = "Koloman IV"
+		dynasty = "Kotromanic"
+		birth_date = 1424.11.11
+		death_date = 2015.7.21
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

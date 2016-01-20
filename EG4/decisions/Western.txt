@@ -1,0 +1,76 @@
+country_decisions = {
+
+	recognization_of_eastern_power = {
+		major = yes
+		potential = {
+			OR = {
+				technology_group = ottoman
+				technology_group = eastern
+			}
+			OR = {
+				ai = no
+				owns = 134
+				owns = 266
+				owns = 43
+				owns = 118
+				owns = 217
+				owns = 227
+				owns = 213
+			}
+		}
+		allow = {
+			is_at_war = no
+			stability = 1
+			OR = {
+				AND = {
+					owns_core_province = 134
+					134 = {
+						NOT = { nationalism = 1 }
+					}
+				}
+				AND = {
+					owns_core_province = 266
+					266 = {
+						NOT = { nationalism = 1 }
+					}
+				}
+				AND = {
+					owns_core_province = 43
+					43 = {
+						NOT = { nationalism = 1 }
+					}
+				}
+				AND = {
+					owns_core_province = 118
+					118 = {
+						NOT = { nationalism = 1 }
+					}
+				}
+				AND = {
+					owns_core_province = 217
+					217 = {
+						NOT = { nationalism = 1 }
+					}
+				}
+				AND = {
+					owns_core_province = 227
+					227 = {
+						NOT = { nationalism = 1 }
+					}
+				}
+				AND = {
+					owns_core_province = 213
+					213 = {
+						NOT = { nationalism = 1 }
+					}
+				}
+			}
+		}
+		effect = {
+			change_technology_group = western
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

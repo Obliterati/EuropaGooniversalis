@@ -1,0 +1,32 @@
+government = feudal_monarchy
+government_rank = 1
+primary_culture = hessian
+religion = catholic
+elector = yes
+technology_group = western
+capital = 77	# Pfalz
+
+1434.11.11 = {
+	monarch = {
+		name = "Rupert III"
+		dynasty = "von Wittelsbach"
+		birth_date = 1414.11.11
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1435.11.11 = {
+	heir = {
+		name = "Ludwig"
+		monarch_name ="Ludwig III"
+		dynasty = "von Wittelsbach"
+		birth_date = 1424.11.11
+		death_date = 2015.7.21
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

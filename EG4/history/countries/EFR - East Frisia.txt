@@ -1,0 +1,30 @@
+government = feudal_monarchy
+government_rank = 1
+primary_culture = hannoverian
+religion = catholic
+technology_group = western
+capital = 1931	# Emden
+
+1444.11.11 = {
+	monarch = {
+		name = "Enno Edzardisna"
+		dynasty = "Cirksena"
+		birth_date = 1414.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1444.11.11 = {
+	heir = {
+		name = "Ulrich"
+		monarch_name = "Ulrich I"
+		dynasty = "Cirksena"
+		birth_date = 1424.1.1
+		claim = 100
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

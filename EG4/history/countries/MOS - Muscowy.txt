@@ -1,0 +1,34 @@
+government = despotic_monarchy
+primary_culture = russian
+religion = orthodox
+technology_group = eastern
+historical_rival = NOV
+capital = 295 # Moskva
+fixed_capital = 295 # Cannot move capital away from this province & no power cost to move to it
+
+national_focus = ADM
+
+1434.11.11 = {
+	monarch = {
+		name = "Vasiliy I"
+		dynasty = "Memenov"
+		birth_date = 1414.11.11
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1435.11.11 = {
+	heir = {
+		name = "Vasiliy Temny"
+		monarch_name = "Vasiliy  Temny"
+		dynasty = "Memenov"
+		birth_date = 1424.11.11
+		death_date = 2015.7.21
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

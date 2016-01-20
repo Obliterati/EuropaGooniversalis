@@ -1,0 +1,31 @@
+government = iqta
+primary_culture = andalucian
+religion = sunni
+technology_group = western
+capital = 223	# Granada
+government_rank = 2
+
+1434.11.11 = {
+	monarch = {
+		name = "Muhammad VII"
+		dynasty = "Nasrid"
+		birth_date = 1414.11.11
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1435.11.11 = {
+	heir = {
+		name = "Yûsuf"
+		monarch_name = "Yûsuf III"
+		dynasty = "Nasrid"
+		birth_date = 1424.11.11
+		death_date = 2015.7.21
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

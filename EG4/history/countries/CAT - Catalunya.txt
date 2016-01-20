@@ -1,0 +1,16 @@
+government = merchant_republic
+religion = catholic
+primary_culture = catalan
+technology_group = western
+capital = 213	# Barcelona
+
+1444.11.11 = {
+	monarch = {
+		name = "Macedoni"
+		dynasty = "de Castro"
+		birth_date = 1414.11.11
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

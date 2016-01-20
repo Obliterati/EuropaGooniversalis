@@ -1,0 +1,30 @@
+government = feudal_monarchy
+technology_group = western
+primary_culture = irish
+religion = catholic
+capital = 373	# Dublin
+
+1434.11.11 = {
+	monarch = {
+		name = "Aedh"
+		dynasty = "O'Neill"
+		birth_date = 1414.11.11
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1435.11.11 = {
+	heir = {
+		name = "Art"
+		monarch_name = "Art"
+		dynasty = "O'Neill"
+		birth_date = 1424.11.11
+		death_date = 2015.7.21
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

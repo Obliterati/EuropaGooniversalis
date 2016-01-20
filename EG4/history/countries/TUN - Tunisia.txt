@@ -1,0 +1,31 @@
+government = iqta
+primary_culture = tunisian
+religion = sunni
+technology_group = muslim
+capital = 341	# Tunis
+fixed_capital = 341 # Cannot move capital away from this province & no power cost to move to it
+
+1434.11.11 = {
+	monarch = {
+		name = "'Uthman"
+		dynasty = "Hafsid"
+		birth_date = 1414.11.11
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1435.11.11 = {
+	heir = {
+		name = "Yahyâ"
+		monarch_name = "Yahyâ III"
+		dynasty = "Hafsid"
+		birth_date = 1424.11.11
+		death_date = 2015.7.21
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

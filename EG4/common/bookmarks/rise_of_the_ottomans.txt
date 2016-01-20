@@ -1,0 +1,23 @@
+bookmark =
+{
+	name = "Europa Gooniversalis"
+	desc = "The world a splode."
+	date = 1444.11.11
+	
+	center = 112
+	default = yes
+	
+	country = HAB
+	country = ORL
+	country = GRA	
+	country = BYZ
+	country = TUR
+	country = IRE
+	country = ERE	
+	country = ALX
+	country = MOS
+	country = SMO
+	country = NOV
+	
+	easy_country = HAB
+}

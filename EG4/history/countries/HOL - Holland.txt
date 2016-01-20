@@ -1,0 +1,31 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = dutch
+capital = 97	# Amsterdam
+
+1434.11.11 = {
+	monarch = {
+		name = "Albert"
+		dynasty = "Hallewas"
+		birth_date = 1414.11.11
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1435.11.11 = {
+	heir = {
+		name = "Willem"
+		monarch_name = "Willem"
+		dynasty = "Hallewas"
+		birth_date = 1424.11.11
+		death_date = 2015.7.21
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
