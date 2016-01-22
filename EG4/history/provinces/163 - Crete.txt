@@ -3,7 +3,7 @@
 owner = CRT
 controller = CRT
 culture = greek
-religion = orthodox
+religion = hellenic
 capital = "Heraklion"
 trade_goods = fish
 hre = no
