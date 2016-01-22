@@ -39,7 +39,7 @@ historical_units = {
 monarch_names = {
   "Giovanni #0" = 80
   "Antonio #0" = 60
-  "Wizzington #0" = 40
+  "Wiz #0" = 40
   "Giacomo #0" = 40
   "Girolamo #0" = 40
   "Francesco #0" = 40
@@ -101,6 +101,7 @@ leader_names = {
   Basileus
   Diogenes Ducas
   Monomachus Morosini
+  Pytheid
   Romanus
   Stauracius Stratioticus
   Vataces "de VendÙme"

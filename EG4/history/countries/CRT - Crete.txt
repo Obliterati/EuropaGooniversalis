@@ -1,0 +1,16 @@
+government = oligarchic_republic
+religion = hellenic
+primary_culture = greek
+technology_group = eastern
+capital = 163 # Crete
+
+1444.1.1 = {
+  monarch = {
+  name = "Sophronius"
+  dynasty = "Pytheid"
+  birth_date = 1414.11.11
+  adm = 2
+  dip = 2
+  mil = 2
+  }
+}
